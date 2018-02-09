@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/actionbar_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar_profile"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@drawable/background_with_shadow">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/profile_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/back" />
+
+                <com.swyftpartner.driver.customText.CustomBoldRegularTextView
+                    android:id="@+id/btn_edit_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="end"
+                    android:paddingRight="10dp"
+                    android:text="@string/btn_edit"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_img_lay"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/actionbar_lay"
+        android:background="@color/main_color">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/driver"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_img_lay"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.swyftpartner.driver.customText.CustomRegularSemiboldEditTextView
+            android:id="@+id/et_firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@null"
+            android:singleLine="true"
+            android:textSize="25dp" />
+
+        <com.swyftpartner.driver.customText.CustomRegularSemiboldEditTextView
+            android:id="@+id/et_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:singleLine="true"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <com.swyftpartner.driver.customText.CustomRegularEditView
+        android:id="@+id/et_profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/square_editbox"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <RadioGroup
+        android:id="@+id/profile_radioGroup"
+        android:layout_below="@+id/et_profile_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:buttonTint="@color/circle_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RadioButton
+            android:id="@+id/radio_btn_male"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"
+            android:buttonTint="@color/circle_color"
+            android:checked="true"
+            android:text="@string/txt_male"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_female"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.5"
+            android:buttonTint="@color/circle_color"
+            android:text="@string/txt_female"
+            android:textSize="14sp" />
+
+
+    </RadioGroup>
+
+    <com.swyftpartner.driver.customText.CustomRegularEditView
+        android:id="@+id/et_profile_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/square_editbox"
+        android:hint="@string/phn_no"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:textSize="16dp"
+        android:layout_below="@+id/et_profile_email" />
+
+</RelativeLayout>

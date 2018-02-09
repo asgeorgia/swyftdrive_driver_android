@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/sp_country_reg"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:popupBackground="#000000"
+        android:background="@android:color/transparent" />
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:src="@drawable/logo_get_started"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_logo"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/txt_driver"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <com.swyftpartner.driver.customText.CustomRegularTextView
+        android:id="@+id/welcome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@color/circle_color"
+        android:gravity="center"
+        android:padding="8dp"
+        android:shadowDy="0"
+        android:text="@string/welcom_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+</RelativeLayout>

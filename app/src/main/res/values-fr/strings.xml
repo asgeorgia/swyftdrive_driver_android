@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Swyft Partner</string>
+    <string name="welcom_btn">Iniciar</string>
+    <string name="app_title">IWS\Motorista</string>
+    <string name="toolbar_title">Swyft Partner</string>
+    <string name="login_email">Email</string>
+    <string name="login_Password">Senha</string>
+    <string name="login_btn">Entrar</string>
+    <string name="btn_accept">Aceitar</string>
+    <string name="btn_reject">Rejeitar</string>
+    <string name="login_errror">Você está conectado em outro dispositivo!</string>
+    <string name="txt_respod">Respondendo...</string>
+    <string name="forgot_pass_btn">Esqueceu a senha?</string>
+    <string name="new_user_btn">Novo motorista?</string>
+    <string name="req_pass_btn">Solicitar senha</string>
+    <string name="register_btn">Registrar</string>
+    <string name="forgot_txt_note">Por favor, entre seu email para receber a senha</string>
+    <string name="first_name">Nome</string>
+    <string name="last_Name">Sobrenome</string>
+    <string name="your_password">Sua senha</string>
+    <string name="your_email">Seu Email</string>
+    <string name="phn_no">Telefone</string>
+    <string name="txt_select_country">País</string>
+    <string name="txt_select_currency">Moeda</string>
+    <string name="login_cancelled">Login cancelado</string>
+    <string name="login_failed">Falha no login</string>
+    <string name="btn_edit">EDITAR</string>
+    <string name="btn_save">SALVAR</string>
+    <string name="txt_current_loc">Localização atual</string>
+    <string name="txt_drop_loc">Endereço de destino</string>
+    <string name="txt_types_title">Táxis disponíveis</string>
+    <string name="txt_types_payment">Dinheiro</string>
+    <string name="invoice">RECIBO</string>
+    <string name="total_fare">VALOR TOTAL</string>
+    <string name="trip_summary">RESUMO DA CORRIDA</string>
+    <string name="rate_ride">AVALIE O PASSAGEIRO</string>
+
+    <string name="txt_male">masculino</string>
+    <string name="txt_female">feminino</string>
+
+    <string name="txt_mobile_error">Por favor, entre seu telefone celular!</string>
+    <string name="txt_fname_error">Por favor, entre seu primeiro nome!</string>
+    <string name="txt_lname_error">Por favor, entre seu sobrenome!</string>
+    <string name="txt_incorrect_error">Email incorreto!</string>
+    <string name="txt_picture_error">Selecione uma foto para o perfil!</string>
+    <string name="txt_phone_error">Entre o número de telefone!</string>
+    <string name="txt_pass8_error">Senha deve conter, no mínimo, 8 caracteres!</string>
+
+    <string name="txt_email_error">Por favor, entre seu Email!</string>
+    <string name="txt_pass_error">Pro favor, entre sua senha!</string>
+    <string name="txt_drivers_error">Não há nenhum carro disponível para este serviço!</string>
+    <string name="txt_load">Carregando...</string>
+    <string name="txt_confirm">Confirmando...</string>
+    <string name="txt_signin">Entrando...</string>
+    <string name="reg_load">Registrando...</string>
+    <string name="updating_pro_load">Atualizando perfil...</string>
+    <string name="req_pass_load">Requisitando Senha...</string>
+    <string name="change_availability">Alterar Status</string>
+    <string name="setting">Pronto para dirigir?</string>
+    <string name="doc">Enviar seus documentos</string>
+    <string name="help_line">Em caso de Emergência</string>
+
+    <string name="my_home">Principal</string>
+    <string name="my_payment">Adicionar pagamento</string>
+    <string name="my_free_ride">Corridas Grátis</string>
+    <string name="ride_history">Histórico</string>
+    <string name="my_promo">Promos</string>
+    <string name="my_help">Ajuda</string>
+    <string name="txt_logout">Sair</string>
+    <string name="drawer_open">abrir</string>
+    <string name="drawer_close">fechar</string>
+    <string name="txt_yes">Sim</string>
+
+    <string name="signin_txt">Assinar em</string>
+
+    <string name="pickup_address">Endereço:</string>
+
+    <string name="upload_your_documents_txt">Enviar seus documentos</string>
+
+    <string name="txt_no">Não</string>
+    <string name="logout_text">Tem certeza de que deseja sair?</string>
+
+    <string name="update_success_text">Perfil Atualizado com sucesso!</string>
+
+
+
+    <string-array name="currency">
+        <item>USD</item>
+        <item>INR</item>
+    </string-array>
+
+    <string name="facebook_api_id">1728426610810179</string>
+    <string name="sender_id">297672134877</string>
+    <string name="map_key">AIzaSyA3LEKvPeLg0_3yM3jVHSUx-E4PRZ2D1-I</string>
+
+    <string name="txt_slct_option">Escolher Foto</string>
+    <string name="txt_gellery">Galeria</string>
+    <string name="txt_cameray">Câmera</string>
+    <string name="txt_img_error">não foi possível selecionar foto!</string>
+    <string name="txt_current_location">\u25A0  Para onde?</string>
+
+    <string name="txt_symbol_dot">\u25CF</string>
+    <string name="txt_symbol_square">\u25A0</string>
+    <string name="txt_dest_hint">Para onde?</string>
+
+    <string name="txt_req_cab">Solicitar Táxi</string>
+
+    <string name="txt_success_forgot_password">Senha enviada para seu Email! </string>
+
+    <string name="status_1">Doctor Accepted</string>
+    <string name="status_2">Doctor Departed</string>
+    <string name="status_3">Doctor Arrived</string>
+    <string name="status_4">Start Treatment</string>
+    <string name="status_5">End Treatment</string>
+
+
+    <string name="history_title">Histórico</string>
+    <string name="txt_warning">( Desabilitado para evitar vandalismos )</string>
+
+    <string name="btn_status_txt_1">Toque quando partir</string>
+    <string name="btn_status_txt_2">Chegou ao local</string>
+    <string name="btn_status_txt_3">Toque para iniciar corrida</string>
+    <string name="btn_status_txt_4">Toque para finalizar corrida</string>
+    <string name="txt_pickup_address">Endereço de origem</string>
+    <string name="give_rating">Avalie o passageiro</string>
+    <string name="rated_successfully">Passageiro avaliado</string>
+    <string name="drop_address">ENDEREÇO DE DESTINO</string>
+    <string name="dialog_exit_text">Tem ceretza ?</string>
+    <string name="dialog_exit_caps">SAIR</string>
+
+    <string name="txt_gps_off">GPS está desligado!</string>
+    <string name="txt_gps_msg">Por favor, ligue o GPS</string>
+    <string name="txt_enable">Habilitar</string>
+    <string name="txt_exit">Sair</string>
+
+    <string name="dialog_no_internet">Sem Internet</string>
+    <string name="no_internet">Internet não disponível</string>
+    <string name="dialog_no_inter_message">Sem conexão com a Internet.</string>
+    <string name="dialog_enable_3g">Habilitar 3G/4G</string>
+    <string name="dialog_enable_wifi">Habilitar WIFI</string>
+    <string name="dialog_exit">Sair</string>
+    <string name="txt_note_choose">Opção <b>Desabilitada</b> no <b>DEMO</b>, para evitar vandalismo</string>
+    <string name="note_availbility">Utilize o botão acima para alternar entre "Disponível" &amp; "Não disponível. Se você deseja fazer uma pausa, você pode desligar sua disponibilidade.</string>
+
+    <string name="base_fare_txt">Preço base</string>
+    <string name="minimum_fare_txt">Preço mínimo</string>
+    <string name="plus_per_minute_txt">+ por minuto</string>
+    <string name="plus_per_km_txt">+ Por km</string>
+    <string name="booking_fee_txt">Tarifa de agendamento</string>
+    <string name="service_tax">Taxa de serviço</string>
+    <string name="receipt_txt">Recibo</string>
+    <string name="time_txt">Tempo</string>
+    <string name="distance_txt">Distância</string>
+
+    <string name="not_available_txt">-- Não disponível --</string>
+
+    <string name="driver_txt">Motorista</string>
+    <string name="name_txt">NOME:</string>
+
+
+    <string name="available_now_txt">Não disponível / Disponível</string>
+    <string name="what_is_this_txt">Como funciona</string>
+
+    <string-array name="language">
+        <item>Select Language</item>
+        <item>English(en)</item>
+        <item>French(fr)</item>
+    </string-array>
+
+    <string name="select_vehicle">Select Vehicle type</string>
+    <string name="upload_vehicle_image">Upload vehicle picture</string>
+    <string name="your_vehicle_model">Vehicle model</string>
+    <string name="your_vehicle_colour">vehicle colour</string>
+    <string name="your_vehicle_number">Vehicle number</string>
+    <string name="txt__vehicle_picture_error">Please upload image of your vehicle</string>
+    <string name="txt_plate_error">Please enter vehicle number</string>
+    <string name="txt_colour_error">Please enter vehicle colour</string>
+    <string name="txt_model_error">Please enter vehicle model</string>
+
+</resources>
